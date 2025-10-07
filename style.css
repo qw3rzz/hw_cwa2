@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: '', sans-serif;
 }
 
@@ -62,4 +63,127 @@ div#nav-profile span {
 
 div#nav-profile img {
     width: 50px;
+}
+h1 {
+    font-size: 200px;
+    text-align: right;
+    float: left;
+    margin-left: 60px;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 140px;
+
+}
+
+#hero-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#hero-text {
+    text-align: end;
+    font-size: 18px;
+    width: 50%;
+}
+
+.right-side {
+    display: flex;
+    position: relative;
+}
+
+#hero-bg {
+    transform: scale(0.5);
+    margin-top: -370px;
+    margin-left: -350px;
+    position: absolute;
+
+}
+#hero-man {
+    margin-top: -280px;
+    margin-left: -210px;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+
+}
+
+#signature{
+    position: absolute;
+    z-index: 3;
+    margin-left: -150px;
+    margin-top: -55px;
+    transform: scale(0.4);
+}
+
+#camera {
+    transform: scale(0.8);
+    margin-left: 10px;
+    margin-top: 470px;
+}
+
+#man {
+    transform: scale(0.8);
+    margin-left: 10px;
+}
+
+#arrow {
+    transform: scale(0.8);
+    margin-left: 10px;
+}
+
+#internet-icon {
+    transform: scale(0.8);
+    margin-left: 518px;
+}
+
+#hero-text {
+    display: flex;
+    float: right;
+    justify-content: right;
+    width: 49%;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+#hero-socials {
+    display: inline-block;
+    margin: 150px 0 90px 55px;
+}
+#hero-socials span {
+    padding: 16px 17px;
+    border: 2.2px solid black;
+    border-radius: 100%;
+    margin-right: -15px;
+    font-size: 23px;
+}
+#hero-hr {
+    width: 60%;
+    height: 1px;
+    opacity: 0.5;
+    margin-top: -100px;
+    margin-left: 240px;
+}
+
+#hero-acomplishments {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    text-align: right;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+    margin-left: 80px;
+}
+
+h2 span {
+    display: flex;
+    margin-bottom: -55px;
+    margin-left: -25px;
+    font-size: 45px;
 }
