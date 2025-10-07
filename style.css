@@ -187,3 +187,32 @@ h2 span {
     margin-left: -25px;
     font-size: 45px;
 }
+
+.design-section {
+    display: flex;
+    background: black;
+    padding-left: 50px;
+    width: 100%;
+}
+
+#about-img {
+    transform: scale(0.8);
+    margin-left: -50px;
+}
+
+#design-side-icons-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -150px;
+    margin-top: 80px;
+
+}
+
+#design-side-icons-right {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 80px;
+}
+/* Dodělat about . text */
