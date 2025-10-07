@@ -11,10 +11,7 @@ body {
 header {
     width: 100%;
     margin-bottom: 70px;
-    margin-right: 20px;
-    padding: 25px 30px;
-}
-header#logo {
+    padding-top: 25px;
 }
 
 header nav {
@@ -23,24 +20,35 @@ header nav {
     align-items: center;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee;
-    padding: 20px 0;
+    padding: 10px 0;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 header nav ul {
     display: flex;
-    gap: 70px;
+    gap: 50px;
     list-style: none;
 }
 
 header nav ul li a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+    text-shadow: 0 0 8px rgba(0, 188, 212, 0.6);
 }
 
 div#nav-profile {
     display: flex;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 div#nav-profile p {
@@ -49,7 +57,7 @@ div#nav-profile p {
 }
 
 div#nav-profile span {
-    color: rgb(131, 131, 131);
+    color: gray;
 }
 
 div#nav-profile img {
