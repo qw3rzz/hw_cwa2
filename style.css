@@ -254,7 +254,7 @@ h2 span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: -150px;
+    margin-left: -1400px;
     margin-top: 80px;
 
 }
@@ -267,10 +267,17 @@ h2 span {
 }
 
 #design-text {
-    text-align: center;
-    z-index: 1;
+    display: flex;
     color: white;
-} /* Can't work out how to put it in middle and just style it (NEEDS TO BE DONE)*/
+    z-index: 1;
+    width: 100%;
+    font-size: 130px;
+}
+#about-text{
+    width: 1500px;
+    margin-top: -30px;
+}
+
 @keyframes slidein {
     0%   { transform: translateX(-100%); opacity: 0; }
     20%  { transform: translateX(-100%); opacity: 0; }
